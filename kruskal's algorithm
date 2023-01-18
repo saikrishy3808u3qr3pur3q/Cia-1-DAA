@@ -134,34 +134,15 @@ void kruskal(struct Graph* graph) {
 
 }
 int main (void) {
-  int E = 5;
-  int V = 4;
+  int E = 8;
+  int V = 6;
   struct Graph* graph = createGraph(E, V);
   //edge: A -- B
   graph->edge[0].start = 0;
   graph->edge[0].end = 1;
-  graph->edge[0].weight = 2;
+  graph->edge[0].weight = 10;
   
-  //edge: A -- C
-  graph->edge[1].start = 0;
-  graph->edge[1].end = 2;
-  graph->edge[1].weight = 2;
-  
-  //edge: B -- C
-  graph->edge[2].start = 1;
-  graph->edge[2].end = 2;
-  graph->edge[2].weight = 1;
-  
-  //edge: B -- D
-  graph->edge[3].start = 1;
-  graph->edge[3].end = 3;
-  graph->edge[3].weight = 5;
-  
-  //edge: D -- C
-  graph->edge[4].start = 3;
-  graph->edge[4].end = 2;
-  graph->edge[4].weight = 3;
-  kruskal(graph);
+  // ADD 7 MORE EDGES LIKE THESE
 
   return 0;
 }
