@@ -16,3 +16,7 @@ The algorithms are implemented as member functions of a Graph class, making it e
 Clone this repository. <br />
 Compile the source code using a C++ compiler (e.g., g++). <br />
 Run the executable file and follow the on-screen instructions to choose the algorithm and input graph. <br />
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
