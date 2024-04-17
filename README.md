@@ -19,4 +19,4 @@ Run the executable file and follow the on-screen instructions to choose the algo
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
